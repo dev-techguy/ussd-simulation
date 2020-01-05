@@ -11,6 +11,11 @@
 |
 */
 
+use Illuminate\Support\Facades\Route;
+
 Route::get('/', function () {
     return view('welcome');
 });
+
+// ussd routes
+Route::post('ussd', 'USSDController@ussd')->name('ussd');

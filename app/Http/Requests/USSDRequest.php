@@ -25,8 +25,8 @@ class USSDRequest extends FormRequest
     {
         return [
             'ussdString' => ['string', 'required', 'max:255'],
-            'phoneNumber' => ['numeric', 'digits_between:10,10', 'required'],
-            'serviceCode' => ['alphanumeric', 'required'],
+            'msisdn' => ['numeric', 'digits_between:10,10', 'required'],
+            'serviceCode' => ['string', 'max:255', 'required'],
         ];
     }
 }
