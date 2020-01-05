@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/dev-techguy/ussd-simulation/tree/master/public/img/ussds.png"></p>
+<p align="center"><img src="https://github.com/dev-techguy/ussd-simulation/blob/master/public/img/ussds.png"></p>
 
 ## About Ussd Simulation
 
